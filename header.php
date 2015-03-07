@@ -83,15 +83,15 @@
 
 </head>
 <body>
-  <header class="panel">
-    <div class="row">
-        <div class="large-3 columns logo">
-				<img src="http://fakeimg.pl/350x200/00CED1/FFF/?text=img+placeholder">      
-		</div>
-        <div class="large-9 columns">
-        	<?php wp_nav_menu( array('menu' => 'mainmenu','menu_class' => 'mainmenu', )); ?>
-        </div>
-    </div>
-  </header>
+<section id="main" class="full">
+<header>
+    	<div class="row">
+              <div class="rss">
+	              <i class="fa fa-facebook"></i>
+	              <i class="fa fa-twitter"></i>
+	              <i class="fa fa-youtube"></i>
+              </div>
+         </div>
+</header>
 		
 
