@@ -9,7 +9,7 @@ Template Name: Inicio
  <div class="inside">
          <div class="row">
            <div class="large-6 columns large-centered">
-              <img src="images/logo.png" alt="Iceberg IE" class="logo">
+              <img src="<?php bloginfo('template_directory'); ?>/images/logo.png" alt="Iceberg IE" class="logo">
               <hr>
               <div class="htcontainer">
               <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
