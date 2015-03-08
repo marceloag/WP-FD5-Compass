@@ -84,14 +84,5 @@
 </head>
 <body>
 <section id="main" class="full">
-<header>
-    	<div class="row">
-              <div class="rss">
-	              <i class="fa fa-facebook"></i>
-	              <i class="fa fa-twitter"></i>
-	              <i class="fa fa-youtube"></i>
-              </div>
-         </div>
-</header>
 		
 
