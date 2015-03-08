@@ -84,3 +84,158 @@ body{
 	-webkit-background-clip: text; 
     -webkit-text-fill-color: transparent;
 }
+
+
+.quees{
+	padding: .6em 0;
+	text-align: right;
+	a{
+		color: rgba(white, .7);
+		&:hover{
+			color: rgba(white, .9);
+		}
+	}
+	font-family: 'Roboto Slab';
+
+}
+
+.reveal-modal{
+	background: url("/images/bgmodal.jpg");
+	background-color: white;
+	background-position: bottom right;
+	padding-bottom: 4em;
+	background-repeat: no-repeat;
+	h1{
+		font-family: 'Montserrat';
+		font-weight: 700;
+		color: #343234;
+		border-bottom: 1px solid rgba(#333,.5);
+		margin-bottom: .4em;
+	}
+	p{
+		font-family: 'Roboto Slab';
+		color: #343234 - 80;
+		line-height: 1.7em;
+		font-weight: 200;
+	}
+}
+
+.overgradient{
+	@include background-image(linear-gradient($azul 10%, $naranja 90%));
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	display: block;
+	opacity: .6;
+	z-index: 3;
+}
+
+
+.single{
+
+	.featimg{
+	position: relative;
+		img{
+			width: 100%;
+		}
+	}
+	hr{
+		width: 30%;
+		margin: auto;
+		margin-bottom: 2em;
+		    border: 0;
+	    height: 1px;
+	    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+	    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+	    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+	    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+	}
+
+	p{
+	font-family: 'Roboto Slab';
+	color: #666a67;
+	font-size: 1.2em;
+	line-height: 1.9em;
+	text-align: justify;
+	font-weight: 200;
+	}
+	h1{
+		font-family: 'Droid Serif';
+		color: #414341;
+		text-align: center;
+		margin: .6em 0;
+	}
+	quote{
+		padding-left: 3em;
+		font-size: 1.2em;
+		border-left: 3px solid $naranja;
+		line-height: 2em;
+		display: block;
+		font-family: 'Roboto Slab';
+		color: #666a67;
+		font-weight: 300;
+		margin-top: 2em;
+		margin-bottom: 3em;
+		text-align: right;
+	}
+	a{
+		color: $naranja;
+		border-bottom: 1px dashed $naranja;
+		padding-bottom: .2em;
+		&:hover{
+			color: $naranja - 80;
+		}
+	}
+	.autor{
+		color: white;
+		font-family: 'Roboto Slab';
+		position: absolute;
+		bottom: 0;
+		right: 3em;
+		z-index: 999;
+	}
+}
+#noticias{
+	h2{
+		font-family: 'Roboto Slab';
+		text-align: center;
+		color: white;
+		font-size: 1em;
+		background-color: rgba($azul,.7);
+		margin-top: 0;
+		padding: .3em;
+		font-weight: 300;
+	}
+}
+.noticia{
+	a{
+		img{
+			opacity: .7 !important;
+			  @include transition-property('all');
+			  @include transition-duration(.3s);
+			  @include transition-timing-function(ease-in);
+		}
+		&:hover{
+			img{
+				opacity: 1 !important;
+			}
+		}
+	}
+}
+
+
+.home{
+	position: absolute;
+	z-index: 999;
+	padding: 1em;
+	border: 1px solid white;
+	@include border-radius(50%);
+	top: .4em;
+	left: 3em;
+	a{
+		opacity: .5;
+		&:hover{
+			opacity: 1;
+		}
+	}
+}
