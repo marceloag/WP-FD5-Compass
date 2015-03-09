@@ -6,6 +6,8 @@ Template Name: Inicio
 
 <?php get_header(); ?>
 
+<section id="main" class="full">
+
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 <div class="row">
       <div class="large-2 columns">
@@ -40,7 +42,7 @@ Template Name: Inicio
                   <?php while (have_posts()) : the_post(); ?>
                       <li class="noticia">
                         <a href="<?php the_permalink();?>">
-                          <?php the_post_thumbnail("slide"); ?>
+                          <?php the_post_thumbnail("homenoticia"); ?>
                           <h2><?php the_title();?></h1>
                         </a>
                       </li>
@@ -88,5 +90,6 @@ Template Name: Inicio
 </div>
 
 <!-- /Modal -->
+</section>
 
 <?php get_footer(); ?>

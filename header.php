@@ -83,6 +83,6 @@
 
 </head>
 <body>
-<section id="main" class="full">
+
 		
 

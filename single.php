@@ -1,34 +1,37 @@
 <?php get_header(); ?>
 
-<div class="row">
-	<div class="large-8 columns panel">
-		<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+<div class="row full single">
+  
+  <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-			<article <?php post_class() ?> id="post-<?php the_ID(); ?>">
-				
-				<h1 class="entry-title"><?php the_title(); ?></h1>
 
-				<div class="entry-content">
-					
-					<?php the_content(); ?>
+  <div class="featimg">
+  	<div class="large-1 column home">
+  		<a href="http://www.icebergs.cl"><img src="images/iso.png" alt=""></a>
+  	</div>
+  	<div class="autor">
+  		Por: Sebastián Saavedra
+  	</div>
+  	<div class="overgradient">
+  	</div>
+    <?php the_post_thumbnail("featpost"); ?>
+  </div>
 
-					<?php wp_link_pages(array('before' => 'Pages: ', 'next_or_number' => 'number')); ?>
-					
-					<?php the_tags( 'Tags: ', ', ', ''); ?>
-				
-					<?php include (TEMPLATEPATH . '/_/inc/meta.php' ); ?>
+  <div class="large-8 columns large-centered">
+    <hr>
+    <h1><?php the_title();?></h1>
+    <hr>
 
-				</div>
-				
-				<?php edit_post_link('Edit this entry','','.'); ?>
-				
-			</article>
+<?php the_content(); ?>
 
-		<?php comments_template(); ?>
+<?php comments_template(); ?>
 
-		<?php endwhile; endif; ?>
-	</div>
-<?php get_sidebar(); ?>
 </div>
 
-<?php get_footer(); ?>
+</div>
+
+   <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/foundation/js/foundation.min.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

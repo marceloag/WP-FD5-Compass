@@ -43,6 +43,8 @@
 
     if ( function_exists( 'add_image_size' ) ) { 
         add_image_size( 'slides', 960, 500,true );
+        add_image_size( 'featpost', 900, 277,true );
+        add_image_size( 'homenoticia', 700, 431,true );
     }
 
     //
