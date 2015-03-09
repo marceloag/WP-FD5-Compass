@@ -12,7 +12,7 @@
   		</a>
   	</div>
   	<div class="autor">
-  		Por: Sebastián Saavedra
+  		Por: <?php the_author(); ?> 
   	</div>
   	<div class="overgradient">
   	</div>
