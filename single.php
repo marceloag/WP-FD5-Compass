@@ -7,7 +7,8 @@
 
   <div class="featimg">
   	<div class="large-1 column home">
-  		<a href="http://www.icebergs.cl"><img src="images/iso.png" alt=""></a>
+  		<a href="http://www.icebergs.cl"><img src="
+  			images/iso.png" alt=""></a>
   	</div>
   	<div class="autor">
   		Por: Sebastián Saavedra
@@ -31,9 +32,4 @@
 
 </div>
 
-    <script src="bower_components/jquery/dist/jquery.min.js"></script>
-    <script src="bower_components/foundation/js/foundation.min.js"></script>
-    <script src="js/app.js"></script>
-  </body>
-
-</html>
+<?php get_footer(); ?>
