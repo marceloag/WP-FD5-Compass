@@ -3,7 +3,7 @@
 
 a{
   @include transition-property('all');
-  @include transition-duration(2s);
+  @include transition-duration(.5s);
   @include transition-timing-function(ease-in);
 }
 
