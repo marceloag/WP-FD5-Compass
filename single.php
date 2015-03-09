@@ -1,8 +1,5 @@
 <?php get_header(); ?>
 
-<?php
-include (TEMPLATEPATH, "/author.php");
-?>
 
 <div class="row full single">
   
@@ -16,7 +13,7 @@ include (TEMPLATEPATH, "/author.php");
   		</a>
   	</div>
   	<div class="autor">
-  		Por: <?php get_the_author(); ?> 
+  		Por: <?php echo get_the_author(); ?> 
   	</div>
   	<div class="overgradient">
   	</div>
