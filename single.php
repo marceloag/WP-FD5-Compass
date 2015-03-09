@@ -7,8 +7,9 @@
 
   <div class="featimg">
   	<div class="large-1 column home">
-  		<a href="http://www.icebergs.cl"><img src="
-  			<?php bloginfo('template_directory'); ?>/images/iso.png" alt=""></a>
+  		<a href="http://www.icebergs.cl">
+  			<img src="<?php bloginfo('template_directory'); ?>/images/iso.png" alt="">
+  		</a>
   	</div>
   	<div class="autor">
   		Por: Sebastián Saavedra
@@ -22,8 +23,10 @@
     <hr>
     <h1><?php the_title();?></h1>
     <hr>
-
-	<?php the_content(); ?>
+	
+	<div class="thecontent">
+		<?php the_content(); ?>
+	</div>
 	<hr>
 	<?php comments_template(); ?>
 

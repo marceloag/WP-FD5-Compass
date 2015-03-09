@@ -48,31 +48,6 @@ Template Name: Inicio
                       </li>
                   <?php endwhile;?> 
                 <?php wp_reset_query(); ?>
-
-               <!--  <li class="noticia">
-                  <a href="page.html">
-                  <img src="http://lorempixel.com/1300/800/people">
-                  <h2>Emprendimiento Femenino, aún falta para celebrar</h1>
-                  </a>
-                </li>
-                <li class="noticia">
-                  <a href="page.html">
-                  <img src="http://lorempixel.com/1300/800/people">
-                  <h2>Emprendimiento Femenino, aún falta para celebrar</h1>
-                  </a>
-                </li>
-                <li class="noticia">
-                  <a href="page.html">
-                  <img src="http://lorempixel.com/1300/800/people">
-                  <h2>Emprendimiento Femenino, aún falta para celebrar</h1>
-                  </a>
-                </li>
-                <li class="noticia">
-                  <a href="page.html">
-                  <img src="http://lorempixel.com/1300/800/people">
-                  <h2>Emprendimiento Femenino, aún falta para celebrar</h1>
-                  </a>
-                </li>             -->  
               </ul>
             </div>
           </div>
