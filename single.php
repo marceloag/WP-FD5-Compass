@@ -7,7 +7,7 @@
 
 
   <div class="featimg">
-  	<div class="large-1 column home">
+  	<div class="large-1 small-1 columns home ">
   		<a href="http://www.icebergs.cl">
   			<img src="<?php bloginfo('template_directory'); ?>/images/iso.png" alt="">
   		</a>
