@@ -59,12 +59,12 @@
 	<meta name="description" content="<?php bloginfo('description'); ?>">
 
 <!-- Meta Information -->
-	<meta name="google-site-verification" content="">
+<!-- 	<meta name="google-site-verification" content="">
 	<meta name="author" content="Your Name Here">
 	<meta name="Copyright" content="Copyright Your Name Here 2013. All Rights Reserved.">
 	<meta name="DC.title" content="Project Name">
 	<meta name="DC.subject" content="What you're about.">
-	<meta name="DC.creator" content="Who made this site.">
+	<meta name="DC.creator" content="Who made this site."> -->
 
 <!-- Stylesheets -->
 	<link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/_/img/favicon.ico">
@@ -73,6 +73,8 @@
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 <!-- Font Awesome -->
 	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+	<link href='http://fonts.googleapis.com/css?family=Droid+Serif:700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300' rel='stylesheet' type='text/css'>
 
 <!-- Facebook Image -->
 	<link rel="image_src" href="" />
