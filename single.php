@@ -8,7 +8,7 @@
   <div class="featimg">
   	<div class="large-1 column home">
   		<a href="http://www.icebergs.cl"><img src="
-  			images/iso.png" alt=""></a>
+  			<?php bloginfo('template_directory'); ?>/images/iso.png" alt=""></a>
   	</div>
   	<div class="autor">
   		Por: Sebastián Saavedra
