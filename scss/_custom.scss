@@ -168,12 +168,15 @@ body{
 }
 .thecontent{
 	p{
-	font-family: 'Roboto Slab';
-	color: #666a67;
-	font-size: 1.2em;
-	line-height: 1.9em;
-	text-align: justify;
-	font-weight: 200;
+		font-family: 'Roboto Slab';
+		color: #666a67;
+		font-size: 1.2em;
+		line-height: 1.9em;
+		text-align: justify;
+		font-weight: 300;
+		b{
+			font-weight: 400;
+		}
 	}
 	h2{
 		font-family: 'Droid Serif';
