@@ -1,5 +1,9 @@
 <?php get_header(); ?>
 
+<?php
+include (TEMPLATEPATH, "/author.php");
+?>
+
 <div class="row full single">
   
   <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
