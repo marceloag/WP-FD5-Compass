@@ -37,18 +37,20 @@ Template Name: Inicio
 
           <div id="noticias">
             <div class="row">
-              <ul class="large-block-grid-4">
-                <?php query_posts('orderby=date&order=desc&category_name=noticias&showposts=4'); ?>
-                  <?php while (have_posts()) : the_post(); ?>
-                      <li class="noticia">
-                        <a href="<?php the_permalink();?>">
-                          <?php the_post_thumbnail("homenoticia"); ?>
-                          <h2><?php the_title();?></h1>
-                        </a>
-                      </li>
-                  <?php endwhile;?> 
-                <?php wp_reset_query(); ?>
-              </ul>
+              <div class="large-10 columns large-centered">
+                <ul class="large-block-grid-3">
+                  <?php query_posts('orderby=date&order=desc&category_name=noticias&showposts=4'); ?>
+                    <?php while (have_posts()) : the_post(); ?>
+                        <li class="noticia">
+                          <a href="<?php the_permalink();?>">
+                            <?php the_post_thumbnail("homenoticia"); ?>
+                            <h2><?php the_title();?></h1>
+                          </a>
+                        </li>
+                    <?php endwhile;?> 
+                  <?php wp_reset_query(); ?>
+                </ul>
+              </div>
             </div>
           </div>
     </div>
