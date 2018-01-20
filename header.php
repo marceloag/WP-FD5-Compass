@@ -77,6 +77,10 @@
 	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300|Roboto+Slab:400,700,300' rel='stylesheet' type='text/css'>
 <!-- Facebook Image -->
 	<link rel="image_src" href="" />
+	<link rel="icon" href="<?php bloginfo('template_directory'); ?>/img/Logo-Croop.ico" />
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/owl.carousel.min.css" />
+	<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/owl.theme.default.min.css" />
 <!-- Facebook Image -->
 
 	<?php if ( is_singular() ) wp_enqueue_script( 'comment-reply' ); ?>
@@ -84,16 +88,29 @@
 
 </head>
 <body>
+	<header>
+	    <div class="row collapse full">
+	          <div class="large-2 medium-5 small-6 columns logo">
+	              <a href="#"><img src="<?php bloginfo('template_directory'); ?>/img/logo_header.png"></a>
+	          </div>
 
-  <header class="panel">
-      <div class="row">
-          <div class="large-2 columns small-10 small-centered large-uncentered">
-              <a href="<?php bloginfo("url"); ?>">
-									<img src="http://fakeimg.pl/600x400/00CED1/FFF/?text=img+placeholder">
-              </a>
-          </div>
-          <div class="large-8 columns">
-								<?php wp_nav_menu( array( 'theme_location' => 'mainmenu' , 'menu_class' => 'mainmenu large-text-right small-text-center') ); ?>
-          </div>
-      </div>
-  </header>
+	      <!-- MENU -->
+	      <div class="large-10 medium-10 small-12 columns text-right">
+	       <nav>
+	            <ul class="menu">
+	                <a href="#"><li>Inicio </li></a>
+	                <span>|</span>
+	                <a href="#"><li>Nosotros </li></a>
+	                <span>|</span>
+	                <a href="#"><li>Servicios </li></a>
+	                <span>|</span>
+	                <a href="#"><li>Portafolio </li></a>
+	                <span>|</span>
+	                <a href="#"><li>Equipo </li></a>
+	                <span>|</span>
+	                <a href="#"><li>Contacto</li></a>
+	            </ul>
+	        </nav>
+	      </div>
+	    </div>
+	</header>
