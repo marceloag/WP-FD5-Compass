@@ -88,29 +88,29 @@
 
 </head>
 <body>
-	<header>
-	    <div class="row collapse full">
-	          <div class="large-2 medium-5 small-6 columns logo">
-	              <a href="#"><img src="<?php bloginfo('template_directory'); ?>/img/logo_header.png"></a>
-	          </div>
+	<header class="main_h">
+			<div class="row collapse">
 
-	      <!-- MENU -->
-	      <div class="large-10 medium-10 small-12 columns text-right">
-	       <nav>
-	            <ul class="menu">
-	                <a href="#"><li>Inicio </li></a>
-	                <span>|</span>
-	                <a href="#"><li>Nosotros </li></a>
-	                <span>|</span>
-	                <a href="#"><li>Servicios </li></a>
-	                <span>|</span>
-	                <a href="#"><li>Portafolio </li></a>
-	                <span>|</span>
-	                <a href="#"><li>Equipo </li></a>
-	                <span>|</span>
-	                <a href="#"><li>Contacto</li></a>
-	            </ul>
-	        </nav>
-	      </div>
-	    </div>
+				 <!-- Menu Responsive -->
+					<img src="<?php bloginfo('template_directory'); ?>/img/logo.svg" alt="" width="130" class="logo_mobile animated infinite pulse">
+
+					<div class="mobile-toggle">
+							<span></span>
+							<span></span>
+							<span></span>
+					</div>
+
+				 <!-- Menu -->
+					<nav>
+							<ul>
+									<li><a href="#">Inicio</a></li>
+									<li><a href="#">Quienes Somos</a></li>
+									<li><a href="#">Portafolio</a></li>
+									<li><a href="#">Contacto</a></li>
+									<li><a href="https://www.facebook.com/somoscroop/" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/img/facebook.png" width="20" alt=""></a></li>
+
+							</ul>
+					</nav>
+
+			</div>
 	</header>
