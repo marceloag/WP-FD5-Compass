@@ -79,8 +79,6 @@
 	<link rel="image_src" href="" />
 	<link rel="icon" href="<?php bloginfo('template_directory'); ?>/img/Logo-Croop.ico" />
 	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-	<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/owl.carousel.min.css" />
-	<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/owl.theme.default.min.css" />
 <!-- Facebook Image -->
 
 	<?php if ( is_singular() ) wp_enqueue_script( 'comment-reply' ); ?>
