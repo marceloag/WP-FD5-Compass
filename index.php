@@ -1,3 +1,4 @@
+<?php get_header(); ?>
 <!-- Croop -->
 		 <div class="hero">
 				<div class="large-12 small-12 large-centered small-centered columns contenedor_header">
@@ -9,3 +10,5 @@
 						 <span></span>
 				 </div>
 		 </div>
+
+<?php get_footer(); ?>
