@@ -77,8 +77,7 @@
 	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300|Roboto+Slab:400,700,300' rel='stylesheet' type='text/css'>
 <!-- Facebook Image -->
 	<link rel="image_src" href="" />
-	<link rel="icon" href="<?php bloginfo('template_directory'); ?>/img/Logo-Croop.ico" />
-	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<link rel="icon" href="<?php bloginfo('template_directory'); ?>/icon.ico" />
 <!-- Facebook Image -->
 
 	<?php if ( is_singular() ) wp_enqueue_script( 'comment-reply' ); ?>
@@ -86,29 +85,13 @@
 
 </head>
 <body>
-	<header class="main_h">
+	<header>
 			<div class="row collapse">
-
-				 <!-- Menu Responsive -->
-					<img src="<?php bloginfo('template_directory'); ?>/img/logo.svg" alt="" width="130" class="logo_mobile animated infinite pulse">
-
-					<div class="mobile-toggle">
-							<span></span>
-							<span></span>
-							<span></span>
+				 <div class="large-3 columns">
+				 		<img src="http://fakeimg.pl/350x200/00CED1/FFF/?text=img+placeholder" alt="Logo">
+				 </div>
+					<div class="large-9 columns">
+							<?php wp_nav_menu( array('menu' => 'mainmenu','menu_class' => 'right', )); ?>
 					</div>
-
-				 <!-- Menu -->
-					<nav>
-							<ul>
-									<li><a href="#">Inicio</a></li>
-									<li><a href="#">Quienes Somos</a></li>
-									<li><a href="#">Portafolio</a></li>
-									<li><a href="#">Contacto</a></li>
-									<li><a href="https://www.facebook.com/somoscroop/" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/img/facebook.png" width="20" alt=""></a></li>
-
-							</ul>
-					</nav>
-
 			</div>
 	</header>
