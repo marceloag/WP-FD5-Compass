@@ -1,0 +1,29 @@
+{
+  "name": "wp-fd-compass-grunt",
+  "version": "1.0.0",
+  "description": "## Basado en el Starter Theme de Croop",
+  "main": "js/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marceloag/WP-FD5-Compass.git"
+  },
+  "author": "@marceloag",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.0.3",
+    "grunt-contrib-connect": "^2.0.0",
+    "grunt-contrib-imagemin": "^3.1.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-sass": "^3.0.2",
+    "load-grunt-tasks": "^4.0.0",
+    "node-sass": "^4.11.0"
+  },
+  "bugs": {
+    "url": "https://github.com/marceloag/WP-FD5-Compass/issues"
+  },
+  "homepage": "https://github.com/marceloag/WP-FD5-Compass#readme"
+}
